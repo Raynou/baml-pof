@@ -1,0 +1,26 @@
+[project]
+name = "baml-pof"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Rafael García Mendoza", email = "49658683+Raynou@users.noreply.github.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "baml-bridge==0.20.1",
+    "pillow>=12.3.0",
+    "pydantic>=2.13.5",
+    "pypdf>=6.19.0",
+    "python-dotenv>=1.2.3",
+]
+
+[project.scripts]
+baml-pof = "baml_pof:main"
+
+[build-system]
+requires = ["uv_build>=0.12.18,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = ["baml_pof", "baml_sdk"]

@@ -1,0 +1,8 @@
+[package]
+name = "baml-pof"
+
+# Genera el SDK de Python junto al paquete de la app → src/baml_sdk
+[generator.python]
+output_type = "python/pydantic"
+naming_convention = "preserve-case"
+output_dir = "src"
