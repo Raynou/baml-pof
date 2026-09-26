@@ -2,11 +2,9 @@
 
 > WARNING: Carnal, no te recomiendo usar un API Key para esta PoF, porque extrae datos del CURP, si lo vas a hacer usa un modelo local.
 
-Prueba de concepto de [BAML](https://github.com/BoundaryML/baml) con Python. Le pasas una constancia CURP (PDF o foto) y un modelo local te regresa los datos ya estructurados: nombres, apellidos, CURP, folio, etc.
+Prueba de concepto de [BAML](https://github.com/BoundaryML/baml) con Python. Le pasas una constancia CURP (PDF o foto) y un llm te regresa los datos ya estructurados: nombres, apellidos, CURP, folio, etc.
 
 Si el documento no es una CURP, te dice por qué. Si le faltan datos, también te avisa.
-
-Todo corre en local con LM Studio, así que tus documentos no salen de tu máquina.
 
 ## Qué necesitas
 
