@@ -1,7 +1,5 @@
 # baml-pof
 
-> WARNING: Carnal, no te recomiendo usar un API Key para esta PoF, porque extrae datos del CURP, si lo vas a hacer usa un modelo local.
-
 Prueba de concepto de [BAML](https://github.com/BoundaryML/baml) con Python. Le pasas una constancia CURP (PDF o foto) y un llm te regresa los datos ya estructurados: nombres, apellidos, CURP, folio, etc.
 
 Si el documento no es una CURP, te dice por qué. Si le faltan datos, también te avisa.
@@ -11,6 +9,8 @@ Si el documento no es una CURP, te dice por qué. Si le faltan datos, también t
 - [uv](https://docs.astral.sh/uv/) para Python (el proyecto usa Python 3.14, uv lo baja solo).
 - El CLI de BAML, versión **0.20.1** (la toolchain nueva).
 - Un modelo local o tu API Key.
+> [!WARNING]  
+> Carnal, no te recomiendo usar un API Key para esta PoF, porque extrae datos del CURP, si lo vas a hacer usa un modelo local o datos dummy.
 
 ## Compilar BAML
 
